@@ -5,6 +5,11 @@ import java.sql.SQLException;
 public class DBconn {
 	String url, user, passwd;
 	
+	/**
+	*@param url (jdbc:postgresql:<database_host>:<port>/<database_name>)
+	*@param user Username of the database
+	*@param passwd Password of the database
+	*/
 	DBconn(String url, String user, String passwd) {
 		this.url = url;
 		this.user = user;
